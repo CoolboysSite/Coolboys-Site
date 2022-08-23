@@ -5,4 +5,4 @@ Visit the site here: https://coolboy.flexan.cf
 - Coded by Coolboy
 - Hosted by Netlify
 - Domain by Freenom
-- Special thsnks to Flexan
+- Special thanks to Flexan
