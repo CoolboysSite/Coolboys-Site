@@ -1,0 +1,5 @@
+[build]
+  copyright = "Copyright Flexan 2022 - Do not modify, redistribute, use or fork this file"
+  functions = "src"
+  publish = "public"
+  command = "! (cd src && ! (find . -type f -exec sed -i '1 i\\exports\\.handler=async function\\(event, context\\)\\{var _code=200;var _cors=true;const AW_FUNC=await (async function(){' {} \\; -exec bash -c \"echo '/**/;})();return {statusCode:_cors?_code:200,headers:_cors?{none:undefined}:{\\\"Access-Control-Allow-Origin\\\":\\\"*\\\"},body:typeof AW_FUNC===\\\"string\\\"||AW_FUNC instanceof String?AW_FUNC:JSON.stringify(AW_FUNC)};}//'>>{}\" \\;))"

@@ -1,2 +1,8 @@
-# Coolboys-Site
-My website!
+# Site
+Visit the site here: https://coolboy.flexan.cf
+
+# Credits
+- Coded by Coolboy
+- Hosted by Netlify
+- Domain by Freenom
+- Special thsnks to Flexan
