@@ -11,7 +11,19 @@
      h3 {text-align: center;}
      .button {border:white;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
      .buttonGreen {background-color: #4CAF50;} /* Green */
-     .centeredbutton {margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);height: 200px;position: relative;border: 3px solid green;}
+     .container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
     </style>
 
     <head>
@@ -21,6 +33,8 @@
     </head>
 
     <body>
+        <h1>Hey there! If you see this, that means I'm working on the website right now. Don't touch anything!!</h1>
+        <h1>___________________________</h1>
         <div>
         <h1><strong>Coolboy 🐢</strong></h1>
         <h6>A website dedicated to... <strong>ME!</strong></h6>
@@ -43,8 +57,11 @@
             <h1>Or if you don't want to wait, here's a sneak peek of what's in progress!</h1>
             <h3>Warning: Not optimized for mobile. Please, ONLY use desktop/laptop.</h3>
         </div>
-        <div>
-            <button height="200px" position="relative" class="button button1 centeredbutton">Green</button>
+        
+        <div class="container">
+            <div class="vertical-center">
+                <button class="button buttonGreen">Test button<button>
+            </div>
         </div>
     </body>
 
