@@ -9,8 +9,9 @@
      p {text-align: center;}
      h3 {color:rgb(232, 232, 233);}
      h3 {text-align: center;}
-     .button {align:center;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+     .button {border:white;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
      .buttonGreen {background-color: #4CAF50;} /* Green */
+     .centeredbutton {margin: 0;position: absolute;top: 50%;-ms-transform: translateY(-50%);transform: translateY(-50%);height: 200px;position: relative;border: 3px solid green;}
     </style>
 
     <head>
@@ -32,14 +33,18 @@
 
 
         <div>
+            <p>&nbsp</p>
             <h1>Anyways, since the website isn't ready, please wait patiently.</h1>
             <h1>If you want to ask questions, here's my discord: Coolboy#9626</h1>
         </div>
 
         <div>
+            <p>&nbsp</p>
             <h1>Or if you don't want to wait, here's a sneak peek of what's in progress!</h1>
             <h3>Warning: Not optimized for mobile. Please, ONLY use desktop/laptop.</h3>
-            <button class="button buttonGreen">Test</button>
+        </div>
+        <div>
+            <button height="200px" position="relative" class="button button1 centeredbutton">Green</button>
         </div>
     </body>
 
