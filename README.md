@@ -1,5 +1,5 @@
 # Site
-Visit the site here: https://coolboy.flexan.cf
+Visit the site here: https://coolboysite.cf
 
 # Credits
 - Coded by Coolboy
