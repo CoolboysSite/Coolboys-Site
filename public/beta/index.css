@@ -1,0 +1,59 @@
+body {
+    background-image: url('https://thumbs.gfycat.com/AdventurousTangibleCormorant-size_restricted.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+/*--FONTS--*/
+@font-face {font-family: NotoSans-Regular;src: url(https://coolboysite.cf/preview/fonts/NotoSans-Regular.ttf);}
+@font-face {font-family: NotoSans-Light;src: url(https://coolboysite.cf/preview/fonts/NotoSans-Light.ttf);}
+@font-face {font-family: Poppins;src: url(https://coolboysite.cf/preview/fonts/Poppins-Medium.ttf);}
+@font-face {font-family: Roboto;src: url(https://coolboysite.cf/preview/fonts/Roboto-Medium.ttf);}
+/*---------*/
+
+/*---TEXT--*/
+p {
+    font-family: Roboto;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    font-family: Poppins;
+    text-align: center;
+}
+
+h2 {
+    font-family: NotoSans-Regular;
+    color:rgb(200, 199, 202);
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color:#4c00ff;
+    text-align: center;
+}
+
+h5 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+h6 {
+    color:rgb(39, 0, 146);
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*--------*/
