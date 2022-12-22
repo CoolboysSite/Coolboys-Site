@@ -10,10 +10,10 @@ body {
 }
 
 /*--FONTS--*/
-@font-face {font-family: NotoSans-Regular;src: url(https://coolboysite.cf/preview/fonts/NotoSans-Regular.ttf);}
-@font-face {font-family: NotoSans-Light;src: url(https://coolboysite.cf/preview/fonts/NotoSans-Light.ttf);}
-@font-face {font-family: Poppins;src: url(https://coolboysite.cf/preview/fonts/Poppins-Medium.ttf);}
-@font-face {font-family: Roboto;src: url(https://coolboysite.cf/preview/fonts/Roboto-Medium.ttf);}
+@font-face {font-family: NotoSans-Regular;src: url(https://coolboysite.cf/preview/css/fonts/NotoSans-Regular.ttf);}
+@font-face {font-family: NotoSans-Light;src: url(https://coolboysite.cf/preview/css/fonts/NotoSans-Light.ttf);}
+@font-face {font-family: Poppins;src: url(https://coolboysite.cf/preview/fonts/css/Poppins-Medium.ttf);}
+@font-face {font-family: Roboto;src: url(https://coolboysite.cf/preview/fonts/css/Roboto-Medium.ttf);}
 /*---------*/
 
 /*---TEXT--*/
