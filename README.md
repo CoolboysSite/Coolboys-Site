@@ -1,7 +1,7 @@
 # This website is outdated and unfunctional
 The domain has already been removed as of writing this.
 I do not plan to bring it back. I am only keeping this
-up for preservation.
+repo public for preservation.
 
 
 
